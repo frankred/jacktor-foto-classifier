@@ -146,5 +146,5 @@ libpng warning: iCCP: known incorrect sRGB profile
 - Table picture: id, filepath (ID of the picture, filepath of the picture)
 - Table tags: id, picture_id, tag, confidence, x_start, x_end, y_start, y_end (ID of the tag, tag = e.g.: car, person..., confidence = probability that this tag is correct; value is between 0...1,  x_start relative x-start coordinate of the detected bounding box, x_end...)
 
-![pictures table](https://imgur.com/zmjggA6 "Pictures table")
-![tags table](https://imgur.com/NHEjOlc "Tags table")
+![pictures table](https://i.imgur.com/zmjggA6.png "Pictures table")
+![tags table](https://i.imgur.com/NHEjOlc.png "Tags table")
