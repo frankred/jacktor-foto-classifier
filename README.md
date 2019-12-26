@@ -142,7 +142,8 @@ libpng warning: iCCP: known incorrect sRGB profile
 ["background", "aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow", "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"]
 ```
 
-## Result database C:\Users\frank\Pictures\photos.sqlite
+## Result database
+Location of the database is the root of the pictures folder you passed. Here C:\Users\frank\Pictures\photos.sqlite.
 - Table picture: id, filepath (ID of the picture, filepath of the picture)
 - Table tags: id, picture_id, tag, confidence, x_start, x_end, y_start, y_end (ID of the tag, tag = e.g.: car, person..., confidence = probability that this tag is correct; value is between 0...1,  x_start relative x-start coordinate of the detected bounding box, x_end...)
 
